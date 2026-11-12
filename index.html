@@ -38,7 +38,7 @@ main:focus{outline:none}
 strong{color:var(--red);font-weight:700}
 em{font-style:normal;background:#fff07a;padding:0 3px;border-radius:3px}
 ul,ol{padding-left:1.3em}
-.frac{display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.05;margin:0 3px;font-size:.92em}
+.frac{display:inline-flex;flex-direction:column;align-items:stretch;text-align:center;vertical-align:middle;line-height:1.05;margin:0 3px;font-size:.92em}
 .frac .num{border-bottom:2px solid currentColor;padding:0 3px}
 .frac .den{padding:0 3px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
@@ -66,6 +66,10 @@ details.hint>p{background:#fffbd6;border-left:5px solid #8a6d00;padding:6px 12px
  border-radius:255px 15px 225px 15px/15px 225px 15px 255px;font-weight:700}
 .watch{background:#ffe9e6;border-left:5px solid var(--red);padding:4px 10px;color:#2b2b2b}
 .tag{font-weight:700;color:var(--red)}
+.steps{list-style:none;padding-left:0;margin:4px 0 8px}
+.steps li{padding:2px 0}
+.steps .eq{color:var(--green);font-weight:700}
+.steps .why{color:#3d3d3d;font-size:.95em;font-style:italic}
 .fig{margin:6px 0}
 svg.uc{width:100%;max-width:18rem;height:auto;display:block}
 svg.tri{width:100%;max-width:25rem;height:auto;display:block}
@@ -84,6 +88,7 @@ svg .ul{font-family:inherit;font-size:15px;font-weight:700}
 .print-only{display:none}
 .print-only-inline{display:none}
 .fix{font-size:1.05rem;color:#3d3d3d;border-top:1px dotted #9aa;padding-top:4px}
+.dom{font-size:1.05rem;color:#3d3d3d;border-left:3px solid var(--green);padding-left:8px;margin-top:6px}
 footer{padding-left:10.6rem;margin-top:calc(var(--lh)*2);font-size:1rem;color:#3d3d3d}
 body.plain{font-family:Arial,Helvetica,sans-serif;font-size:1.15rem;--lh:2rem;background:#fff}
 body.plain .page{background:#fff;box-shadow:none}
@@ -281,7 +286,7 @@ instructor through Canvas Inbox, or contact Santa Ana College Disabled Students 
 feedback helps fix it for everyone.</p>
 </div></div></section>
 </main>
-<footer>Math 172: Precalculus &amp; Trigonometry · Lecture Notes TE6 · v1.1 · Built for Santa Ana College</footer>
+<footer>Math 172: Precalculus &amp; Trigonometry · Lecture Notes TE6 · v1.2 · Built for Santa Ana College</footer>
 </div>
 <script>
 (function(){
